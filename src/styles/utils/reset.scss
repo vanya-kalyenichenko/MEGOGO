@@ -1,0 +1,38 @@
+* {
+  font-family: Display, sans-serif;
+}
+
+body {
+    color: $clr-white;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    cursor: pointer;
+    border-color: transparent;
+  }
+
+
+  section {
+    margin: 0;
+    padding: 0;
+  }

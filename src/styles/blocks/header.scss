@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/first__bg__img.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__menu {
+    width: 16px;
+    height: 12px;
+    padding: 15px;
+  }
+
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    align-items: center;
+    flex-grow: 1;
+    color: $clr-white;
+    text-align: start;
+    margin: 0 25px 0 50px;
+  }
+
+  &__text--description {
+    line-height: 20px;
+  }
+}

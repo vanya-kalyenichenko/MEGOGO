@@ -1,3 +1,7 @@
-body {
-  margin: 0;
-}
+@import "../styles/utils/variables";
+@import "../styles/utils/reset";
+@import "../styles/utils/extends";
+@import "../styles/blocks/header";
+@import "../styles/blocks/section";
+@import "../styles/utils/button";
+@import "../styles/typografy";
